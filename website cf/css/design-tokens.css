@@ -1,0 +1,50 @@
+:root {
+  /* ==========================================================================
+     CUBIC FUEL BRAND COLOR SYSTEM
+     ========================================================================== */
+  --cf-red: #E62B2B;
+  --cf-red-hover: #FF3B30;
+  --cf-red-dark: #B81D1D;
+  --cf-red-glow: rgba(230, 43, 43, 0.45);
+  --cf-red-glow-subtle: rgba(230, 43, 43, 0.16);
+  --cf-red-wash: rgba(230, 43, 43, 0.05);
+
+  --cf-black: #0D0D0D;        /* Jet Black - Dominant background */
+  --cf-charcoal: #141414;     /* Deep Charcoal */
+  --cf-charcoal-elevated: #1A1A1A; /* Surface cards */
+  --cf-charcoal-highlight: #242424;
+
+  --cf-white: #FFFFFF;
+  --cf-white-soft: #F5F5F7;
+  --cf-text-secondary: #9E9E9E;
+  --cf-text-muted: #6E6E73;
+  --cf-border: rgba(255, 255, 255, 0.08);
+  --cf-border-hover: rgba(230, 43, 43, 0.5);
+  --cf-border-focus: #E62B2B;
+
+  /* ==========================================================================
+     TYPOGRAPHY TOKENS
+     ========================================================================== */
+  --font-display: 'Orbitron', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* ==========================================================================
+     TRANSITIONS & EASINGS
+     ========================================================================== */
+  --ease-cinematic: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-fast: 0.2s var(--ease-smooth);
+  --transition-medium: 0.4s var(--ease-cinematic);
+  --transition-slow: 0.8s var(--ease-cinematic);
+
+  /* ==========================================================================
+     SPACING & LAYOUT
+     ========================================================================== */
+  --container-max: 1320px;
+  --nav-height: 76px;
+  --section-spacing-y: clamp(80px, 12vh, 160px);
+  --border-radius-sm: 8px;
+  --border-radius-md: 14px;
+  --border-radius-lg: 20px;
+  --border-radius-pill: 9999px;
+}

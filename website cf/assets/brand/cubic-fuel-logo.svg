@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="200 370 660 325" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800;900&amp;display=swap');
+      .cf-c { fill: #E62B2B; }
+      .cf-f { fill: #FFFFFF; }
+      .cf-txt-cubic { font-family: 'Orbitron', -apple-system, BlinkMacSystemFont, sans-serif; font-weight: 800; font-size: 108.6px; fill: #FFFFFF; letter-spacing: 2px; }
+      .cf-txt-fuel { font-family: 'Orbitron', -apple-system, BlinkMacSystemFont, sans-serif; font-weight: 800; font-size: 108.6px; fill: #E62B2B; letter-spacing: 2px; }
+      .cf-fuel-detail { fill: #E62B2B; }
+      .cf-fuel-nozzle { fill: #E62B2B; }
+      .cf-fuel-glow { opacity: 0.25; fill: #E62B2B; }
+    </style>
+  </defs>
+
+  <!-- Isometric CF Icon -->
+  <g class="cf-mark">
+    <!-- C Face (Red) -->
+    <polygon class="cf-c" points="345.65,453.91 398.51,422.97 326.31,383 212.84,450.05 212.84,589.3 303.1,639.58 303.1,577.69 264.42,557.06 265.71,478.41 326.31,443.6" />
+    <!-- F Face (White) -->
+    <polygon class="cf-f" points="429.45,438.44 448.79,448.76 448.79,497.75 438.48,492.6 371.43,529.99 371.43,558.35 443.64,517.09 443.64,567.38 371.43,609.93 371.43,660.21 323.73,686 323.73,519.67 305.68,509.36" />
+  </g>
+
+  <!-- Typography & Fuel Elements -->
+  <g class="cf-brand-text">
+    <text x="498.73" y="519.25" class="cf-txt-cubic">CUBIC</text>
+    
+    <!-- Fuel Gauge / Glow Accents -->
+    <path class="cf-fuel-glow" d="M648.54,583.99c8.88,5.41,20.44,12.2-3.8-4.26c-34.31-23.29-59.26-5.82-59.26-5.82l3.12,37.84h53.02l6.24-2.91 l12.48-11.64L648.54,583.99z"/>
+    <path class="cf-fuel-glow" d="M594.54,600.16c0,0,34.67-57.98,56.74-42.52v50.25l-56.74,3.87V600.16z"/>
+
+    <text x="498.73" y="616.98" class="cf-txt-fuel">FU</text>
+    
+    <!-- Fuel Nozzle Glyph -->
+    <g class="cf-fuel-nozzle">
+      <path d="M677.42,551.69l-2.69,2.5c1.52,1.71,0.34,2.5,0.34,2.5l-4.02,2.3l-0.1,10.48c-0.05,2.16,2.16,1.96,2.16,1.96 h4.11c-0.34,1.08,0.41,1.58,0.41,1.58v35.53c-0.91,3.13-3.79,3.13-3.79,3.13c-3.92,0-4.44-5.09-4.44-5.09v-20.9 c-1.7-5.88-9.67-4.96-9.67-4.96v2.91l3.18,0.1c3.72,0.59,3.77,3.77,3.77,3.77l0.05,21.16c0.49,7,7.49,6.22,7.49,6.22 c5.88-0.88,6.42-6.02,6.42-6.02l0.1-36.15c1.96,0.54,2.06-1.13,2.06-1.13v-12.83L677.42,551.69z"/>
+      <polygon points="676.58,550.81 668.75,543.02 666.44,544.98 673.99,552.92"/>
+    </g>
+    
+    <text x="681.55" y="616.98" class="cf-txt-fuel">EL</text>
+  </g>
+</svg>
